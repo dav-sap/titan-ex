@@ -24,19 +24,19 @@ Order.init(
     },
     fullName: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
     },
     fullAddress: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
     },
     imageUrls: {
       type: DataTypes.JSON,
-      allowNull: true,
+      allowNull: false,
     },
     frameColor: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     user: {
       type: DataTypes.STRING,
