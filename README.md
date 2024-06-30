@@ -39,7 +39,8 @@ Before running the application, ensure you have the following installed:
    ```
     if you have it installed, again update config file as you see fit
 
-
+5. Define your unsplash token:
+   Go to the config file and paste your unsplash token in the config, so the API can work correctly
 ## Running the Application
 
 Start the Node.js server:
