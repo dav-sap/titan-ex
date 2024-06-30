@@ -9,6 +9,7 @@
     "host": "localhost",
     "port": 6379
   },
+  "unsplash_token": "unsplash_token",
   "app": {
     "port": 3000
   }

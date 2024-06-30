@@ -1,7 +1,9 @@
 import axios from 'axios';
 import redisClient from '../cache/redis-client';
+import config from 'config';
 
-const UNSPLASH_ACCESS_KEY = 'token';
+const unsplashToken = config.get('unsplash_token');
+const UNSPLASH_ACCESS_KEY = unsplashToken;
 const UNSPLASH_API_URL = 'https://api.unsplash.com/photos/random';
 
 export const fetchPhotos = async (number: number): Promise<string[]> => {
